@@ -226,7 +226,7 @@ public class GUI extends javax.swing.JFrame {
 
         } else {
             String n = peopleList.getSelectedValue();
-            System.out.println(n);
+            
             for (Node w : l) {
                 if ((w.getFirstName() + " " + w.getLastName()).trim().equalsIgnoreCase(n.trim())) {
                     city.setText("City: " + w.getCity());
